@@ -80,8 +80,9 @@ end
 describe "#multiply" do
 
   it "multiplies two numbers"
-
+expect(multiply([7,11])).to eq(77)
   it "multiplies several numbers"
+ expect(multiply([7,11,10])).to eq(770) 
   
 end
 
